@@ -1,0 +1,7 @@
+# Ignoring temporary files 
+
+*.swp
+
+# Ignoring node_modules
+
+node_modules/
