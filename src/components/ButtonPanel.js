@@ -31,7 +31,7 @@ export default function ButtonPanel() {
         <Button buttonName="+" backgroundColor="#ff9d14" />
       </div>
       <div id="g5-buttons" className="button-row">
-        <Button buttonName="0" />
+        <Button buttonName="0" wide={true}/>
         <Button buttonName="." />
         <Button buttonName="=" backgroundColor="#ff9d14" />
       </div>
