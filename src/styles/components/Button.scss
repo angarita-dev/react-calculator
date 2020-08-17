@@ -1,0 +1,18 @@
+@import '../shared/variables';
+
+.button {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid $border-grey;
+  background-color: $light-grey;
+
+  &.wide-button {
+    width: 50%;
+  }
+}

@@ -1,0 +1,14 @@
+@import '../shared/variables';
+
+.button-panel {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1px solid $border-grey;
+
+  .button-row {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+}
