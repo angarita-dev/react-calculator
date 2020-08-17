@@ -22,17 +22,15 @@ export default class App extends React.Component {
 
   render() {
     const { total, next, operation } = this.state;
-    let value;
+    const value = next;
+    let previousValue;
     if (total && operation) {
-      value = `${total} ${operation}`;
-    }
-    if (next) {
-      value = value ? `${value} ${next}` : next;
+      previousValue = `${total} ${operation}`;
     }
 
     return (
       <div id="calculator-container" className="calculator-container">
-        <Display value={value || undefined} />
+        <Display previousValue={previousValue || undefined} value={value || undefined} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
