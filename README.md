@@ -4,6 +4,8 @@ Basic calculator built with [React](https://es.reactjs.org/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Preview](https://i.imgur.com/93JrAZV.png?1)
+
 ## Requirements 
 
 [Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
