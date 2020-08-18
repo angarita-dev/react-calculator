@@ -13,4 +13,11 @@
   font-size: 2em;
   color: white;
   background: $grey;
+
+  .previous-calculation {
+    font-size: 0.5em;
+    margin-top: 0;
+    margin-right: 0.5em;
+    color: $light-grey;
+  }
 }
